@@ -1,0 +1,39 @@
+{
+  "name": "influesolutions-landing-page",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.11.0",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@hookform/resolvers": "^3.3.4",
+    "@mui/icons-material": "^5.15.14",
+    "@mui/material": "^5.15.14",
+    "@mui/material-nextjs": "^5.15.11",
+    "@sendgrid/mail": "^8.1.1",
+    "html-entities": "^2.5.2",
+    "next": "14.1.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-google-recaptcha-v3": "^1.10.1",
+    "react-hook-form": "^7.51.2",
+    "react-number-format": "^5.3.4",
+    "react-scroll-parallax": "^3.4.5",
+    "react-splide-ts": "^0.7.14",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.4",
+    "typescript": "^5"
+  }
+}
